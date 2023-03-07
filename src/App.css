@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  border: 2px solid black;
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  color: cornflowerblue;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  gap: 2rem;
+}
+
+.list-link {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:link {
+  text-decoration: none;
+
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.view-more {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.view-more-button {
+  font-size: 1.5rem;
+  background: cornflowerblue;
+  color: blue;
+}
